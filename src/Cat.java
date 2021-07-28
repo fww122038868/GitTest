@@ -1,6 +1,7 @@
 
 public class Cat {
 	String name;
+	String type;
 
 	public String getName() {
 		return name;
@@ -15,5 +16,6 @@ public class Cat {
 		return "Cat [name=" + name + "]";
 	}
 	//添加索引就是add到暂存区
+	
 	
 }
