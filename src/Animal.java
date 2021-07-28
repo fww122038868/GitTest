@@ -21,6 +21,7 @@ public class Animal {
 
 	@Override
 	public String toString() {
+		System.out.println("asdda");
 		return "Animal [name=" + name + ", type=" + type + "]";
 	}
 }
