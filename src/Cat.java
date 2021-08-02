@@ -1,23 +1,22 @@
-
 public class Cat {
-	String name;
-	String type;
+    String name;
+    String type;
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	@Override
-	public String toString() {
-		System.out.println("cat is yy");
-		System.out.println("cat is not");
-		return "Cat [name=" + name + "]";
-	}
-	//添加索引就是add到暂存区
-	
-	
+    @Override
+    public String toString() {
+        System.out.println("cat is yy");
+        System.out.println("cat is not");
+        return "Cat [name=" + name + "]";
+    }
+    //添加索引就是add到暂存区
+
+
 }
