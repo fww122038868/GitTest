@@ -1,27 +1,29 @@
 
 public class Animal {
-	private String name;
-	private String type;
-	
-	public String getName() {
-		return name;
-	}
+    private String name;
+    private String type;
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
 
-	public String getType() {
-		return type;
-	}
+        return name;
+    }
 
-	public void setType(String type) {
-		this.type = type;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	@Override
-	public String toString() {
-		System.out.println("asdda");
-		return "Animal [name=" + name + ", type=" + type + "]";
-	}
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    @Override
+    public String toString() {
+        System.out.println("asdda");
+        System.out.println("ssssssssssssssss");
+        return "Animal [name=" + name + ", type=" + type + "]";
+    }
 }
