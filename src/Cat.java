@@ -15,6 +15,7 @@ public class Cat {
     public String toString() {
         System.out.println("haha");
         System.out.println("haha");
+        System.out.println("haha");
         return "Cat [name=" + name + "]";
     }
     //添加索引就是add到暂存区
