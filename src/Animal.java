@@ -22,6 +22,7 @@ public class Animal {
 
     @Override
     public String toString() {
+        System.out.println("haha");
         return "Animal [name=" + name + ", type=" + type + "]";
     }
 }
