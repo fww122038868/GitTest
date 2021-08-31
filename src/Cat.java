@@ -12,8 +12,6 @@ public class Cat {
 
     @Override
     public String toString() {
-	    
-        System.out.println("cat is not");
         return "Cat [name=" + name + "]";
     }
     //添加索引就是add到暂存区
