@@ -12,7 +12,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        System.out.println("cat is yy");
+	    
         System.out.println("cat is not");
         return "Cat [name=" + name + "]";
     }
